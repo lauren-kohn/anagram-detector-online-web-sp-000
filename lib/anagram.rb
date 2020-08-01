@@ -14,7 +14,7 @@ class Anagram
       if element.split("").sort == result
         element
       end
-        # iterates over the given array and performs the same operation on each element, then compares it to the "result" variable. If this returns true, 
+        # iterates over the given array and performs the same operation on each element, then compares it to the "result" variable. If this returns true, the matching element is added to the returned array. #Select works for multiple anagrams.
     end
   end
     
